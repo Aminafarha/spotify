@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-left: 120px;
+    padding-top: 18px;
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainLogo{
+    width: 143px;
+    height: 47px;
+}
+.header-text{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.body-section-1{
+    width: 100%;
+    height: 600px;
+    background-image: url(background\ vattan.jpg);
+    background-size:100%;
+    display: flex;
+}
+.section-1-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content:right;
+    padding-top: 100px;
+    padding-right: 20px;
+}
+.section-1-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+#section-1-text{
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-size: 64px;
+}
+.get-spotify-free{
+    width: 187px;
+    height: 52px;
+    border: 0;
+    border-radius: 50px;
+}
+.section-2-heading{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.why-spotify{
+    font-size: 40px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.section-2-main-box{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.box{
+    width: 285px;
+    height: 350px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    /* justify-content: center; */
+    
+}
+#box-heading{
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+
+
+}
+#box-para{
+
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.body-section-3{
+    width: 100%;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section-3-text{
+    text-align: center;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+.section-4-main-box{
+    height: 500px;
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Q-box{
+    width: 80%;
+    height: 100px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    box-shadow: 0 1px 0 0 rgb(206, 206, 206);
+}
+.Q-box-text{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.Svg-ytk21e-0{
+    margin-left: 900px;   
+}
+.Svg-ytk21e-02{
+    margin-left: 820px;   
+}
+.Svg-ytk21e-03{
+    margin-left: 780px;  
+}
+.body-section-5{
+    width: 100%;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section-5-text{
+    font-size: 80px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    color: #fff;
+
+}
+.footer{
+    width: 100%;
+    height: 424px;
+    display: flex;
+}
+.footer-section-1{
+    width: 700px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: right;
+    padding-top: 80px;
+}
+.footer-section-2{
+    width: 500px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.footer-section-3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    
+}
+.footer-text-heading{
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    color: rgb(169, 169, 169);
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-text{
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    color: #fff;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-icon{
+    width: 54px;
+    height: 54px;
+    background-color: #fff;
+    
+    margin-right: 25px;
+}
